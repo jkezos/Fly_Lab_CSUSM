@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Fly Lab @ CSU San Marcos</title>
+ 
+  <!-- Tab favicon: start with raw icon, JS will upgrade to circle once loaded -->
+  <link rel="icon" href="./icons/fly_tab.ico">
+ 
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Karla:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+ 
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="navbar__brand">
+      <div class="navbar__logo-circle">
+        <img src="./icons/fly.ico" alt="Fly Lab logo" class="navbar__logo" />
+      </div>
+      <div class="navbar__title-block">
+        <span class="navbar__title">The Fly Lab <span class="navbar__at">@</span> CSU San Marcos</span>
+      </div>
+    </div>
+    <nav class="navbar__links">
+      <a href="#" class="nav-link active" data-page="about">About</a>
+      <a href="#" class="nav-link" data-page="research">Research</a>
+      <a href="#" class="nav-link" data-page="people">People</a>
+    </nav>
+  </header>
+ 
+  <!-- ===== PAGE: ABOUT ===== -->
+  <main id="page-about" class="page active">
+ 
+    <section class="about-top">
+      <div class="about-text">
+        <h1 class="section-heading">About the Lab</h1>
+        <p>
+            Our research group uses <em>Drosophila melanogaster</em> (fruit flies) as a model system to investigate key questions in evolutionary physiology, cardiac function, stress resistance, diet, and longevity.
+        </p>
+
+        <p>
+            Led by Dr. James Kezos, the lab integrates experimental evolution and comparative physiology with the extensive genetic, molecular, and high-throughput screening tools available in Drosophila.
+        </p>
+
+        <h3>Research Focus Areas</h3>
+        <ul>
+            <li>
+            Exploring the relationship between heart health in Drosophila and multi-omic patterns and variations.
+            </li>
+            <li>
+            Investigating how acute and chronic stress exposure influences physiology and life-history traits.
+            </li>
+            <li>
+            Utilizing Drosophila as a model to study atrial fibrillation and other cardiac rhythm disorders.
+            </li>
+        </ul>
+        <p> </p>
+        <p>Interested in joining? Reach out through the contact information below.</p>
+      </div>
+      <div class="about-image">
+        <div class="image-placeholder">
+          <span>Lab Photo</span>
+        </div>
+        <!-- this size looks good -->
+        <!-- <img src="lab image.JPG" 
+            alt = "lab image"
+            loading="lazy"
+            width = "400" height = "600" /> -->
+
+      </div>
+    </section>
+ 
+    <section class="contact-section">
+      <h2 class="section-heading">Contact Info</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="protected-email" data-user="jkezos" data-domain="csusm.edu"></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Maybe add a room number (if there is one)?</br>333 S Twin Oaks Valley Rd, San Marcos, CA 92096</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Social Media</span>
+          <span class="contact-value">Add links to social media platforms </br> or links to your writing publishing page (i.e.orcid)</span>
+        </div>
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <!-- ===== PAGE: RESEARCH ===== -->
+  <main id="page-research" class="page">
+ 
+    <section class="research-section">
+      <h1 class="section-heading">Current Projects</h1>
+ 
+      <article class="project-card">
+        <div class="project-info">
+          <h3 class="project-title">Improving Heart Function and Lifespan in Obese Fruit Fly Populations via Exercise</h3>
+          <p class="project-desc">Add description here</p>
+          <a href="#" class="read-more">read more &rarr;</a>
+        </div>
+        <div class="project-image">
+          <div class="image-placeholder small"><span>Image</span></div>
+        </div>
+      </article>
+ 
+      <article class="project-card">
+        <div class="project-info">
+          <h3 class="project-title">Evolutionary and Physiological Responses to High-Sugar Diets in Drosophila melanogaster</h3>
+          <p class="project-desc">Add description here</p>
+          <a href="#" class="read-more">read more &rarr;</a>
+        </div>
+        <div class="project-image">
+          <div class="image-placeholder small"><span>Image</span></div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-info">
+          <h3 class="project-title">A Novel Age-Related Role for the Developmental Hedgehog Signaling Pathway in Drosophila Hearts</h3>
+          <p class="project-desc">Add description here</p>
+          <a href="#" class="read-more">read more &rarr;</a>
+        </div>
+        <div class="project-image">
+          <div class="image-placeholder small"><span>Image</span></div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-info">
+          <h3 class="project-title">Identifying neuronal clusters that influence the Drosophila pacemaker cells</h3>
+          <p class="project-desc">Add description here</p>
+          <a href="#" class="read-more">read more &rarr;</a>
+        </div>
+        <div class="project-image">
+          <div class="image-placeholder small"><span>Image</span></div>
+        </div>
+      </article>
+      
+      <article class="project-card">
+        <div class="project-info">
+          <h3 class="project-title">Metagenomic Analyses of Obese Drosophila Populations Experiencing Heightened Early-Age Mortality</h3>
+          <p class="project-desc">Add description here</p>
+          <a href="#" class="read-more">read more &rarr;</a>
+        </div>
+        <div class="project-image">
+          <div class="image-placeholder small"><span>Image</span></div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-info">
+          <h3 class="project-title">Exploring the role of Trissin signaling in cardiac function and rhythm</h3>
+          <p class="project-desc">Add description here</p>
+          <a href="#" class="read-more">read more &rarr;</a>
+        </div>
+        <div class="project-image">
+          <div class="image-placeholder small"><span>Image</span></div>
+        </div>
+      </article>
+
+    </section>
+ 
+    <section class="research-section">
+      <h2 class="section-heading">Previous Projects</h2>
+ 
+      <article class="project-card">
+        <div class="project-info">
+          <h3 class="project-title">Investigating the Effects of Aspartame on Drosophila Physiology and Lifespan</h3>
+          <p class="project-desc">Add description here</p>
+          <a href="#" class="read-more">read more &rarr;</a>
+        </div>
+        <div class="project-image">
+          <div class="image-placeholder small"><span>Image</span></div>
+        </div>
+      </article>
+ 
+ 
+    <section class="contact-section">
+      <h2 class="section-heading">Contact Info</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="protected-email" data-user="jkezos" data-domain="csusm.edu"></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Maybe add a room number (if there is one)?</br>333 S Twin Oaks Valley Rd, San Marcos, CA 92096</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Social Media</span>
+          <span class="contact-value">Add links to social media platforms </br> or links to your writing publishing page (i.e.orcid)</span>
+        </div>
+      </div>
+    </section>
+ 
+  </main>
+ 
+  <!-- ===== PAGE: PEOPLE ===== -->
+  <main id="page-people" class="page">
+ 
+    <section class="people-section">
+      <h2 class="section-heading">Principal Investigator</h2>
+      <div class="pi-card">
+        <div class="image-placeholder person"><span>Photo</span></div>
+        <div class="pi-info">
+          <h3 class="person-name">Dr. James Kezos</h3>
+          <p class="person-role">Assistant Professor, Department of Biological Sciences</p>
+          <p class="person-bio">Dr. Kezos received his Ph.D. in Biology from UC Irvine in 2017 and joined the Biology factulty at CSUSM in Fall 2024 after conducting his postdoctoral research at Sanford Burnham Prebys Medical Discovery Institute. </p>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="people-section">
+      <h2 class="section-heading">Current Members</h2>
+      <div class="members-grid">
+        <!-- graduate student -->
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <!-- this is what to replace top with, but I don't have a photo of Nessa yet so I just left the placeholder for now -->
+          <!-- <img src="profile.JPG" 
+            alt = "Nessa Jamalian"
+            class="member-photo"
+            loading="lazy"
+            width = "88" height = "88" /> -->
+          <p class="person-name">Nessa Jamalian</p>
+          <p class="person-role">Graduate Student</p>
+        </div>
+
+        <!-- undergrad students -->
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Kailey Pickering</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Jason San Nicolas</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Anthony Buchanan</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Maggie Vo</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Alondra Landavazo</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Riley Demnianiuk</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Jennifer Ramirez Resendiz</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Ivanel De Jesus-Alicea</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+          <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Maddy Liljenberg</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+          <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Ethan Lam</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+          <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Kailey Frye</p>
+        <p class="person-role">Undergraduate Student</p>
+        </div>
+          <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Ruth Hamilton</p>
+        <p class="person-role">Undergraduate Student</p>
+        </div>
+          <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Khadija Dost</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Rebecca Benitez Mendoza</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+          <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Ricky Castaneda</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Serena Benavides-Cantu</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Natalie Tehrani</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Briana Harris</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Wendy Araujo</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Christopher Elizalde</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Madison Barret</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Benjamin Yu</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Destiny French</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Jordan Karandang</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Spencer Trussell</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+          <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Noe Villa Bardales</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Erick Rincon Cordova</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Litza Garcia</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Saoirse Dwyer</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Kevin Comito</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Zander Ngo</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Connor Michaelis</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Michael Salazar</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Hasan Alrubaiawi</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+        <div class="member-card">
+          <div class="image-placeholder person small"><span>Photo</span></div>
+          <p class="person-name">Dane Price</p>
+          <p class="person-role">Undergraduate Student</p>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="people-section">
+      <h2 class="section-heading">Alumni</h2>
+      <ul class="alumni-list">
+        <li><span class="alumni-name">Quetzalli Johnson</span> <span class="alumni-note">- can add notes here on where they went after the lab if we want</span></li> 
+        <li><span class="alumni-name">Jordan Hoke</span></li>
+        <li><span class="alumni-name">Karem Najar</span></li>
+        <li><span class="alumni-name">Mary Bagwell</span></li>
+        <li><span class="alumni-name">Grace Hubbard</span></li>
+        <li><span class="alumni-name">Ashley Wampler</span></li>
+        <li><span class="alumni-name">Emma Segovia</span></li>
+        <li><span class="alumni-name">Henry Broadnax</span></li>
+        <li><span class="alumni-name">Isaac Barragan</span></li>
+        <li><span class="alumni-name">Amity Lozada</span></li>
+        <li><span class="alumni-name">JD Shaposchnick</span></li>
+        <li><span class="alumni-name">Keeyana Newman</span></li>
+        <li><span class="alumni-name">Jean Duran</span></li>
+        <li><span class="alumni-name">Melissa Cruz</span></li>
+        <li><span class="alumni-name">Miquel Buchanan</span></li>
+        <li><span class="alumni-name">Nytalia Buchanan</span></li>
+        <li><span class="alumni-name">Vanessa Purnell</span></li>
+      </ul>
+    </section> 
+
+    <section class="contact-section">
+      <h2 class="section-heading">Contact Info</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <span class="contact-label">Email</span>
+          <span class="protected-email" data-user="jkezos" data-domain="csusm.edu"></span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Location</span>
+          <span class="contact-value">Maybe add a room number (if there is one)?</br>333 S Twin Oaks Valley Rd, San Marcos, CA 92096</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-label">Social Media</span>
+          <span class="contact-value">Add links to social media platforms </br> or links to your writing publishing page (i.e.orcid)</span>
+        </div>
+      </div>
+    </section>
+ 
+  </main>
+
+
+  <script>
+    // Simple single-page navigation
+    const navLinks = document.querySelectorAll('.nav-link');
+    const pages = document.querySelectorAll('.page');
+
+    navLinks.forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        const target = link.dataset.page;
+
+        navLinks.forEach(l => l.classList.remove('active'));
+        pages.forEach(p => p.classList.remove('active'));
+
+        link.classList.add('active');
+        document.getElementById('page-' + target).classList.add('active');
+
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+    document.querySelectorAll('.protected-email').forEach(el => {
+      const email = el.dataset.user + '@' + el.dataset.domain;
+      const link = document.createElement('a');
+      link.href = 'mailto:' + email;
+      link.textContent = email;
+      el.appendChild(link);
+    });
+  </script>
+
+</body>
+</html>
