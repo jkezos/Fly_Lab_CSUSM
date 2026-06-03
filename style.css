@@ -407,8 +407,8 @@ h3.person-name {
 }
 
 .member-photo {
-  width: 88px;
-  height: 88px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;      /* crops to fill the circle without stretching */
   object-position: center top;  /* biases crop toward the face */
