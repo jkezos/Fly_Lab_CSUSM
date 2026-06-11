@@ -327,7 +327,18 @@ h3.person-name {
   color: var(--dark);
   margin-bottom: 0.6rem;
 }
- 
+/* Shifts and indents bullet point lists within research projects */
+.project-info ul {
+  margin-left: 1.5rem;       /* Tabs the entire list block inward */
+  margin-bottom: 0.85rem;    /* Creates nice separation from text below it */
+  padding-left: 0.25rem;     /* Subtle breathing room for bullet markers */
+}
+
+.project-info ul li {
+  font-size: 0.93rem;        /* Matches your project description text size */
+  color: var(--dark);
+  margin-bottom: 0.4rem;     /* Adds a crisp, readable space between each bullet */
+} 
 .read-more {
   font-size: 0.8rem;
   font-weight: 500;
