@@ -4,14 +4,14 @@
 
 /* --- Variables & Reset --- */
 :root {
-  --navy:     #092350;
+  --navy:      #092350;
   --navy-dark: #071631;
-  --cream:    #f5f3ee;
-  --sand:     #e8e3d8;
-  --mid:      #c8c0b0;
-  --dark:     #2a2520;
-  --muted:    #7a7268;
-  --accent:   #8a9e78;   /* subtle sage green */
+  --cream:     #f5f3ee;
+  --sand:      #e8e3d8;
+  --mid:       #c8c0b0;
+  --dark:      #2a2520;
+  --muted:     #7a7268;
+  --accent:    #8a9e78;   /* subtle sage green */
 
   --font-display: 'EB Garamond', Georgia, serif;
   --font-body:    'Karla', sans-serif;
@@ -257,6 +257,12 @@ h3.person-name {
   margin-top: 1.25rem;
   margin-bottom: 0.5rem;
 }
+
+/* Default Video Styles for Desktop Screens */
+.about-video {
+  width: 35%;
+  height: auto; /* keeps the video from stretching or distorting */
+}
  
 /* =============================================
    CONTACT SECTION
@@ -489,7 +495,7 @@ h3.person-name {
    ============================================= */
 @media (max-width: 768px) {
   
-/* Navbar Adjustments */
+  /* Navbar Adjustments */
   .navbar {
     padding: 0.75rem 1rem;       
     height: auto;                
@@ -542,19 +548,12 @@ h3.person-name {
     height: 200px;
   }
    
- /* For desktop screens */
-.about-video {
-  width: 35%;
-  height: auto; /* keeps the video from stretching or distorting */
-}
-
-/* For mobile screens */
-@media (max-width: 768px) {
+  /* Video styles customized safely for mobile screens */
   .about-video {
-    width: 100%; /* lets the video fill the screen nicely on a phone */
-    max-width: 400px; /* keeps it from getting too massive */
+    width: 100%;                 /* lets the video fill the screen nicely on a phone */
+    max-width: 400px;            /* keeps it from getting too massive */
   }
-}
+
   .pi-card {
     flex-direction: column;      
     align-items: center;
@@ -571,7 +570,7 @@ h3.person-name {
     gap: 1rem;
   }
 
-  /* Alumni Section Mobile Adjustments (CRITICAL FIX) */
+  /* Alumni Section Mobile Adjustments */
   .alumni-layout-container {
     flex-direction: column;      /* Stack the Alumni list on top, image stack on bottom */
     gap: 2rem;
