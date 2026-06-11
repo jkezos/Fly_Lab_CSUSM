@@ -541,7 +541,20 @@ h3.person-name {
     max-width: 320px;            
     height: 200px;
   }
- 
+   
+ /* For desktop screens */
+.about-video {
+  width: 35%;
+  height: auto; /* keeps the video from stretching or distorting */
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+  .about-video {
+    width: 100%; /* lets the video fill the screen nicely on a phone */
+    max-width: 400px; /* keeps it from getting too massive */
+  }
+}
   .pi-card {
     flex-direction: column;      
     align-items: center;
