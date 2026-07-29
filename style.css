@@ -298,7 +298,19 @@ h3.person-name {
   color: var(--dark);
 }
 
- 
+ /* If page-products or about-top uses Flexbox: */
+#page-products,
+.about-top {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  width: 100%;
+}
+
+/* Or if it uses CSS Grid: */
+#page-products {
+  display: grid;
+  grid-template-columns: 1fr; /* Forces a single vertical column */
+}
 /* =============================================
    RESEARCH PAGE
    ============================================= */
