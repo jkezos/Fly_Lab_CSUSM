@@ -299,7 +299,6 @@ h3.person-name {
 }
 
  /* If page-products or about-top uses Flexbox: */
-#page-products,
 .product-top {
   display: flex;
   flex-direction: column; /* Stacks items vertically */
